@@ -54,6 +54,7 @@ urlpatterns = patterns('oms_pds.views',
     (r"^(?P<owner_uuid>\b[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}\b)/sparql$", federated_sparql_proxy),
     (r'^funf_connector/', include('oms_pds.funf_connector.urls')),
     (r'^survey/', direct_to_template, { 'template' : 'survey.html' }),
+    (r'^os_connector/', include('oms_pds.os_connector.urls')),
     (r"meetup/", include("oms_pds.meetup.urls")),
     # Examples:
     # url(r'^$', 'OMS_PDS.views.home', name='home'),

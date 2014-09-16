@@ -7,7 +7,7 @@ TEMPLATE_DEBUG = DEBUG
 MONGODB_HOST = None
 MONGODB_PORT = None
 MONGODB_DATABASE = 'pds'
-SERVER_OMS_REGISTRY='working-title.media.mit.edu:8003'
+SERVER_OMS_REGISTRY='celldata.media.mit.edu'
 DEFAULT_PDS_URL = 'http://working-title.media.mit.edu:8004'
 
 SERVER_UPLOAD_DIR="/var/www/trustframework/fieldTrialPDS/"
@@ -22,7 +22,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': '/var/www/trustframework/fieldTrialPDS/openPDS/oms_pds/test.db',                      # Or path to database file if using sqlite3.
-        #'NAME': 'test.db',
+        'NAME': 'test.db',
         'USER': 'test',                      # Not used with sqlite3.
         'PASSWORD': 'test',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
