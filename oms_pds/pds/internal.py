@@ -256,10 +256,10 @@ class SQLiteInternalDataStore(AccessControlledInternalDataStore):
         c.execute(statement, times)
         return ListWithCount(c.fetchall())
     
-    def saveData(self, data):
+    def saveData(self, data, source):
         # Again, assuming only funf data at the moment...
         tableName = data["key"].rpartition(".")[2]
-        source = "funf" if data["key"].rpartition(".")[0].startswith("edu.mit.media.funf") else "sql"
+        # source = "funf" if data["key"].rpartition(".")[0].startswith("edu.mit.media.funf") else "sql"
         time = data["time"]
         dataValue = data["value"]
         table = next((t for t in SQLiteInternalDataStore.DATA_TABLE_LIST if tableName.endswith(t["name"])), None)
@@ -357,8 +357,8 @@ class InternalDataStore(AccessControlledInternalDataStore):
             dataFilter["time"] = timeFilter
         return self.db["funf"].find(dataFilter)
     
-    def saveData(self, data):
-        self.db["funf"].save(data)
+    def saveData(self, data, source):
+        self.db[source].save(data)
  
 class DualInternalDataStore(AccessControlledInternalDataStore):
     def __init__(self, profile, app_id, lab_id, token):
@@ -380,6 +380,6 @@ class DualInternalDataStore(AccessControlledInternalDataStore):
         return self.ids.getData(key, startTime, endTime)
 
     def saveData(self, data):
-        self.ids.saveData(data)
-        self.sids.saveData(data)
+        self.ids.saveData(data, source)
+        self.sids.saveData(data, source)
 

@@ -17,7 +17,7 @@ import pdb
 upload_dir = settings.SERVER_UPLOAD_DIR
 
 def insert_pds(internalDataStore, token, pds_json):
-    internalDataStore.saveData(pds_json)
+    internalDataStore.saveData(pds_json, "funf")
 
 def write_key(request):
     '''write the password used to encrypt funf database files to your PDS'''

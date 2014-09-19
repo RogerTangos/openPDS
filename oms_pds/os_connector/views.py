@@ -13,7 +13,7 @@ from oms_pds.pds.internal import getInternalDataStore
 
 
 def insert_pds(internalDataStore, token, pds_json):
-    internalDataStore.saveData(pds_json)
+    internalDataStore.saveData(pds_json, "opensense")
 
 
 def data(request):
