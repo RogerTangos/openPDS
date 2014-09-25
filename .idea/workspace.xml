@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="749b83c3-9848-4877-a459-643eeeb3ca59" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/requirements.txt" afterPath="$PROJECT_DIR$/conf/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oms_pds/settings.py" afterPath="$PROJECT_DIR$/oms_pds/settings.py" />
     </list>
     <ignored path="openPDS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +58,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oms_pds/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045">
+            <state line="24" column="8" selection-start="695" selection-end="695" vertical-scroll-proportion="-13.8" vertical-offset="15" max-vertical-offset="3045">
               <folding />
             </state>
           </provider>
@@ -66,7 +67,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.46644846" vertical-offset="0" max-vertical-offset="611">
+            <state line="8" column="10" selection-start="284" selection-end="284" vertical-scroll-proportion="0.19639935" vertical-offset="0" max-vertical-offset="611">
               <folding />
             </state>
           </provider>
@@ -147,6 +148,7 @@
         <option value="$PROJECT_DIR$/oms_pds/pds/internal.py" />
         <option value="$PROJECT_DIR$/oms_pds/os_connector/urls.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/oms_pds/settings.py" />
         <option value="$PROJECT_DIR$/conf/requirements.txt" />
       </list>
     </option>
@@ -210,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="oms_pds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,6 +485,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="1344" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oms_pds/os_connector/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
@@ -492,23 +501,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="1344" selection-end="1383" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oms_pds/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3045">
+        <state line="24" column="8" selection-start="695" selection-end="695" vertical-scroll-proportion="-13.8" vertical-offset="15" max-vertical-offset="3045">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.46644846" vertical-offset="0" max-vertical-offset="611">
+        <state line="8" column="10" selection-start="284" selection-end="284" vertical-scroll-proportion="0.19639935" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>

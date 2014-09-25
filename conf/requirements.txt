@@ -10,7 +10,7 @@ requests
 psycopg2
 django-extensions
 django-uni-form
-cluster
+cluster ==1.2.0
 python-gcm
 SparqlWrapper
 django-4store
