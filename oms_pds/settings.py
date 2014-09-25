@@ -21,7 +21,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/var/www/trustframework/fieldTrialPDS/openPDS/oms_pds/test.db',                      # Or path to database file if using sqlite3.
+        #'NAME': '/var/www/trustframework/fieldTrialPDS/openPDS/oms_pds/test.db',                      # Or path to database file if using sqlite3.
         'NAME': 'test.db',
         'USER': 'test',                      # Not used with sqlite3.
         'PASSWORD': 'test',                  # Not used with sqlite3.
