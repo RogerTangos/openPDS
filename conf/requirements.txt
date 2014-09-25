@@ -1,6 +1,6 @@
 # XXX add specific version numbers once we can confirm the latest stable versions all work
 # XXX need to confirm that the Registry and Resource Servers have the same dependencies?
-django==1.4.13
+django==1.4.2
 django-tastypie==0.9.11
 mongoengine
 django-celery-with-mongodb
@@ -16,4 +16,4 @@ SparqlWrapper
 django-4store
 pycrypto
 django-crocodile
-
+fabric
