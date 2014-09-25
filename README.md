@@ -7,7 +7,7 @@ Please note: openPDS requires a separate registry server for account management 
 
 * To get started with openPDS, you must have python pip, virtualenv, and mongodb server installed on your machine:
 
-    >apt-get install python pip
+    >apt-get install python-pip
     
     >apt-get install python-virtualenv
     
@@ -21,7 +21,9 @@ Please note: openPDS requires a separate registry server for account management 
     
     >cd pdsEnv
     
-    >git clone https://github.com/HumanDynamics/openPDS.git
+    >git clone git@github.com:RogerTangos/openPDS.git
+
+    >git checkout os_connector
     
     >source bin/activate
     
